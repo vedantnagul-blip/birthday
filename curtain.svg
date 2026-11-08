@@ -1,0 +1,43 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="1000" height="1200" viewBox="0 0 1000 1200">
+  <defs>
+    <!-- Realistic 3D cloth fold gradient -->
+    <linearGradient id="folds" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7a7a7a"/>
+      <stop offset="3%" stop-color="#dedede"/>
+      <stop offset="6%" stop-color="#ffffff"/>
+      <stop offset="10%" stop-color="#808080"/>
+      <stop offset="13%" stop-color="#555555"/>
+      <stop offset="18%" stop-color="#ffffff"/>
+      <stop offset="22%" stop-color="#9a9a9a"/>
+      <stop offset="25%" stop-color="#666666"/>
+      <stop offset="31%" stop-color="#ffffff"/>
+      <stop offset="36%" stop-color="#dedede"/>
+      <stop offset="41%" stop-color="#7a7a7a"/>
+      <stop offset="44%" stop-color="#4d4d4d"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="54%" stop-color="#adadad"/>
+      <stop offset="58%" stop-color="#666666"/>
+      <stop offset="64%" stop-color="#ffffff"/>
+      <stop offset="68%" stop-color="#c4c4c4"/>
+      <stop offset="73%" stop-color="#7a7a7a"/>
+      <stop offset="77%" stop-color="#4f4f4f"/>
+      <stop offset="83%" stop-color="#ffffff"/>
+      <stop offset="88%" stop-color="#a0a0a0"/>
+      <stop offset="92%" stop-color="#555555"/>
+      <stop offset="96%" stop-color="#7a7a7a"/>
+      <stop offset="100%" stop-color="#5a5a5a"/>
+    </linearGradient>
+
+    <!-- Top & Bottom ambient drape shadows -->
+    <linearGradient id="vignette" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.5"/>
+      <stop offset="8%" stop-color="#000000" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="82%" stop-color="#000000" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.65"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="1200" fill="url(#folds)"/>
+  <rect width="1000" height="1200" fill="url(#vignette)"/>
+</svg>
